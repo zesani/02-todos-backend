@@ -9,5 +9,6 @@ const port = process.env.PORT || 9999;
 app.use('/', function (request, response) {
     response.json({ message: 'Hello world' })
 })
+
 app.listen(port)
 console.log('Server is running on port: ' + port)
